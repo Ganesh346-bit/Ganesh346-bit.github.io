@@ -3,20 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Your Name - Portfolio</title>
-    <meta name="description" content="Portfolio website showcasing projects, skills, and experience." />
+    <title>Sai Ganesh Kalmali - Portfolio</title>
+    <meta
+      name="description"
+      content="Sai Ganesh Kalmali - Full Stack / AI Software Engineering student. Projects in Spring Boot, React, RAG, and time series forecasting."
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="logo" href="#top">YourName</a>
+        <a class="logo" href="#top">Sai Ganesh</a>
 
         <nav class="nav">
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
           <a href="#experience">Experience</a>
+          <a href="#leadership">Leadership</a>
           <a href="#contact">Contact</a>
         </nav>
 
@@ -31,9 +35,13 @@
       <section class="hero">
         <div class="container hero-grid">
           <div>
-            <h1>Hi, I'm <span class="accent">Your Name</span>.</h1>
+            <h1>Hi, I'm <span class="accent">Sai Ganesh Kalmali</span>.</h1>
+
             <p class="subtitle">
-              Software Engineer + AI/ML builder. I like shipping projects that are practical, clean, and fast.
+              Full Stack / AI Software Engineering student at Iowa State (B.S. CS, Minor: Applied AI).
+              Strong in Java + Python, with hands-on experience building production apps using React/Angular/Next.js
+              and Spring Boot/Node/Django, plus SQL/NoSQL. I build LLM + RAG systems and data pipelines, and I care
+              about shipping secure, reliable systems.
             </p>
 
             <div class="hero-buttons">
@@ -42,28 +50,30 @@
             </div>
 
             <div class="links">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://github.com/Ganesh346-bit" target="_blank" rel="noopener">GitHub</a>
               <span class="dot">•</span>
-              <a href="https://www.linkedin.com/in/yourusername/" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://linkedin.com/in/sai-ganesh-kalmali" target="_blank" rel="noopener">LinkedIn</a>
               <span class="dot">•</span>
-              <a href="mailto:youremail@gmail.com">youremail@gmail.com</a>
+              <a href="mailto:saiganeshkalmali@gmail.com">saiganeshkalmali@gmail.com</a>
             </div>
           </div>
 
           <div class="hero-card">
             <div class="mini-title">Currently</div>
             <ul class="mini-list">
-              <li>Building: Portfolio + projects demos</li>
-              <li>Focus: SWE internships, AI/ML internships</li>
-              <li>Stack: Java, Python, React, SQL</li>
+              <li>Iowa State University (Anticipated May 2027)</li>
+              <li>Building full-stack + AI projects (RAG, forecasting, platforms)</li>
+              <li>Focus: SWE + AI/ML internships</li>
             </ul>
+
             <div class="mini-title">Highlights</div>
             <div class="chips">
-              <span class="chip">RAG</span>
-              <span class="chip">Time Series</span>
-              <span class="chip">APIs</span>
+              <span class="chip">Spring Boot</span>
+              <span class="chip">React / Angular</span>
+              <span class="chip">RAG + OCR</span>
               <span class="chip">CI/CD</span>
               <span class="chip">Docker</span>
+              <span class="chip">ARIMA</span>
             </div>
           </div>
         </div>
@@ -73,20 +83,52 @@
         <div class="container">
           <div class="section-head">
             <h2>Projects</h2>
-            <p>Pick 3 to 5 best. Keep them tight: problem, tech, result.</p>
+            <p>Selected projects across full-stack systems + applied AI.</p>
           </div>
 
           <div class="grid">
             <article class="card">
-              <h3>Intelligent Revenue Tracker</h3>
+              <h3>Iowa State Course Rating App</h3>
               <p>
-                Forecasted revenue using time series models and showed results in a simple dashboard.
+                Built the backend for a university course rating platform with secure REST APIs for ratings, groups,
+                clubs, schedules, and comments. Added real-time chat + notifications using Spring WebSockets and
+                validated with JUnit, Postman, and GitLab CI.
               </p>
               <div class="meta">
-                <span>Python</span><span>Streamlit</span><span>ARIMA</span>
+                <span>Java</span><span>Spring Boot</span><span>PostgreSQL/MySQL</span><span>JWT/RBAC</span><span>WebSockets</span>
               </div>
               <div class="card-actions">
-                <a class="link" href="https://github.com/yourusername/repo" target="_blank" rel="noopener">Code</a>
+                <a class="link" href="#" target="_blank" rel="noopener">Code</a>
+                <a class="link" href="#" target="_blank" rel="noopener">Demo</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>Factory Maintenance & Work-Order Tracker</h3>
+              <p>
+                Full-stack maintenance tracking system to replace scattered emails/spreadsheets. Implemented a Spring Boot + PostgreSQL
+                backend with JWT-secured APIs and set up Azure Pipelines to build/test/package Docker images on merges.
+              </p>
+              <div class="meta">
+                <span>Angular</span><span>TypeScript</span><span>Spring Boot</span><span>PostgreSQL</span><span>Azure Pipelines</span>
+              </div>
+              <div class="card-actions">
+                <a class="link" href="#" target="_blank" rel="noopener">Code</a>
+                <a class="link" href="#" target="_blank" rel="noopener">Demo</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3>StudentXchange - Marketplace Web App</h3>
+              <p>
+                Built a React single-page marketplace for browsing/posting listings. Designed Node.js/Express + MySQL REST APIs
+                for auth, listings, and admin actions, using bcrypt for secure hashing and Multer for image uploads.
+              </p>
+              <div class="meta">
+                <span>React</span><span>Node.js/Express</span><span>MySQL</span><span>REST APIs</span>
+              </div>
+              <div class="card-actions">
+                <a class="link" href="#" target="_blank" rel="noopener">Code</a>
                 <a class="link" href="#" target="_blank" rel="noopener">Demo</a>
               </div>
             </article>
@@ -94,31 +136,37 @@
             <article class="card">
               <h3>PDF RAG Chatbot</h3>
               <p>
-                Built a document Q&A app with retrieval, citations, and safety-friendly refusals.
+                Built a fully local RAG system for Q&A over PDFs: chunking, embeddings, top-k retrieval, and a persisted ChromaDB store.
+                Added Apple Vision OCR for scanned pages, plus page-level citations and an evidence-based refusal mode.
               </p>
               <div class="meta">
-                <span>Python</span><span>RAG</span><span>Vector DB</span>
+                <span>Python</span><span>Streamlit</span><span>ChromaDB</span><span>Ollama</span><span>Apple Vision OCR</span>
               </div>
               <div class="card-actions">
-                <a class="link" href="https://github.com/yourusername/repo" target="_blank" rel="noopener">Code</a>
+                <a class="link" href="https://github.com/Ganesh346-bit/rag_pdf_chat" target="_blank" rel="noopener">Code</a>
                 <a class="link" href="#" target="_blank" rel="noopener">Demo</a>
               </div>
             </article>
 
             <article class="card">
-              <h3>Study Together Scheduler</h3>
+              <h3>Intelligent Revenue Tracker System</h3>
               <p>
-                Built a shared scheduler with invite links and calendar-friendly planning.
+                Built an interactive Streamlit dashboard to upload revenue data and view trends + forecasts. Implemented regression and
+                ARIMA forecasting, evaluated with MAE/RMSE, and containerized with Docker + GitHub Actions CI for repeatable builds/tests.
               </p>
               <div class="meta">
-                <span>Python</span><span>JavaScript</span><span>APIs</span>
+                <span>Python</span><span>Streamlit</span><span>ARIMA</span><span>Docker</span><span>GitHub Actions</span>
               </div>
               <div class="card-actions">
-                <a class="link" href="https://github.com/yourusername/repo" target="_blank" rel="noopener">Code</a>
+                <a class="link" href="https://github.com/Ganesh346-bit/intelligent-revenue-tracker" target="_blank" rel="noopener">Code</a>
                 <a class="link" href="#" target="_blank" rel="noopener">Demo</a>
               </div>
             </article>
           </div>
+
+          <p class="muted" style="margin-top: 14px;">
+            Note: replace the “Code/Demo” placeholders with links if you have more repos or live demos.
+          </p>
         </div>
       </section>
 
@@ -126,21 +174,53 @@
         <div class="container">
           <div class="section-head">
             <h2>Skills</h2>
-            <p>Keep it keyword-friendly for recruiters.</p>
+            <p>Tech stack across frontend, backend, AI/ML, and DevOps.</p>
           </div>
 
           <div class="skills">
             <div class="skill-block">
               <h3>Languages</h3>
-              <p>Python, Java, JavaScript, SQL, C</p>
+              <p>Python, Java, C/C++, TypeScript/JavaScript, SQL, R, Bash, PowerShell</p>
             </div>
+
             <div class="skill-block">
-              <h3>Frameworks</h3>
-              <p>React, Streamlit, Spring Boot</p>
+              <h3>Frontend / UI</h3>
+              <p>React.js, Angular, Next.js, Vue.js, HTML5, CSS3, Bootstrap, Figma, Responsive Design</p>
             </div>
+
             <div class="skill-block">
-              <h3>Tools</h3>
-              <p>Git, Docker, GitHub Actions, Postgres, Linux</p>
+              <h3>Backend</h3>
+              <p>Spring Boot, Node.js/Express, Django, Flask, ASP.NET Core/MVC, REST APIs, GraphQL, WebSockets, JWT, RBAC</p>
+            </div>
+
+            <div class="skill-block">
+              <h3>Databases</h3>
+              <p>PostgreSQL, MySQL, MongoDB, Neo4j, SQL Server, DynamoDB, Prisma, Snowflake</p>
+            </div>
+
+            <div class="skill-block">
+              <h3>AI / ML</h3>
+              <p>TensorFlow, PyTorch, Keras, NLP, Computer Vision, Hugging Face, LangChain, NumPy, Pandas</p>
+            </div>
+
+            <div class="skill-block">
+              <h3>Cloud / DevOps</h3>
+              <p>AWS, Azure, GCP, Docker, Kubernetes, Terraform, Jenkins, CI/CD (GitHub Actions, GitLab CI)</p>
+            </div>
+
+            <div class="skill-block">
+              <h3>Testing / Tools</h3>
+              <p>JUnit, PyTest, Selenium, Postman, Git, GitHub/GitLab, Jira, Linux, IntelliJ IDEA, VS Code</p>
+            </div>
+
+            <div class="skill-block">
+              <h3>Monitoring / Security</h3>
+              <p>Prometheus, Grafana, ELK Stack, IAM, OAuth2, Encryption, Firebase Auth, Clerk, Stripe</p>
+            </div>
+
+            <div class="skill-block">
+              <h3>Mobile</h3>
+              <p>Android Studio, Kotlin, Android SDK, Mobile UI, Mobile Testing</p>
             </div>
           </div>
         </div>
@@ -150,28 +230,74 @@
         <div class="container">
           <div class="section-head">
             <h2>Experience</h2>
-            <p>Internships, research, leadership, or strong class projects.</p>
+            <p>Campus role + applied engineering experience through projects.</p>
           </div>
 
           <div class="timeline">
             <div class="timeline-item">
               <div class="timeline-top">
-                <h3>Project: AI/ML Portfolio Work</h3>
-                <span class="muted">2025</span>
+                <h3>COM S Help Room Tutor - Iowa State University</h3>
+                <span class="muted">Incoming: Jan 2026</span>
               </div>
               <ul>
-                <li>Built and shipped multiple end-to-end projects with demos and writeups.</li>
-                <li>Focused on measurable results: speed, accuracy, usability, reliability.</li>
+                <li>Tutor core concepts in software engineering, distributed systems & networking, and database design/SQL.</li>
+                <li>Help students with debugging, testing, and problem-solving.</li>
               </ul>
             </div>
 
             <div class="timeline-item">
               <div class="timeline-top">
-                <h3>Education: Your University</h3>
-                <span class="muted">Expected Graduation: YYYY</span>
+                <h3>Education - Iowa State University</h3>
+                <span class="muted">Anticipated: May 2027</span>
               </div>
               <ul>
-                <li>Relevant courses: Data Structures, Discrete Math, Probability/Stats, ML basics.</li>
+                <li>B.S. in Computer Science; Minor: Applied Artificial Intelligence</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="leadership" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Leadership & Involvement</h2>
+            <p>Campus leadership + technical communities.</p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-top">
+                <h3>Destination Iowa State Leader</h3>
+                <span class="muted">Aug 2025</span>
+              </div>
+              <ul>
+                <li>Led and mentored a cohort of first-year students during a 3-day orientation.</li>
+                <li>Coordinated logistics, facilitated team-building, and provided follow-up support.</li>
+              </ul>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-top">
+                <h3>AI & ML Club; CS & Software Engineering Club - Iowa State</h3>
+                <span class="muted">Aug 2024 - Present</span>
+              </div>
+              <ul>
+                <li>Participate in AI/ML talks, coding workshops, and hackathons focused on applied AI, software engineering, and systems design.</li>
+              </ul>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-top">
+                <h3>Certifications</h3>
+                <span class="muted">2022 - 2025</span>
+              </div>
+              <ul>
+                <li>Forage - Advanced Software Engineering Job Simulation (Dec 2025)</li>
+                <li>Complete Guide to Generative AI for Data Analysis and Data Science (Nov 2025)</li>
+                <li>AWS Essential Training for Developers (Nov 2025)</li>
+                <li>Artificial Intelligence Training, Acmegrade & Mood Indigo, IIT Bombay (Jun-Jul 2024)</li>
+                <li>Java Programming Course (Aug 2023); C and C++ Programming Courses (Oct 2022)</li>
               </ul>
             </div>
           </div>
@@ -186,9 +312,11 @@
           </div>
 
           <div class="contact-card">
-            <p><strong>Email:</strong> <a href="mailto:youremail@gmail.com">youremail@gmail.com</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourusername/" target="_blank" rel="noopener">linkedin.com/in/yourusername</a></p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></p>
+            <p><strong>Location:</strong> Ames, IA</p>
+            <p><strong>Email:</strong> <a href="mailto:saiganeshkalmali@gmail.com">saiganeshkalmali@gmail.com</a></p>
+            <p><strong>Phone:</strong> (515) 451-9955</p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sai-ganesh-kalmali" target="_blank" rel="noopener">linkedin.com/in/sai-ganesh-kalmali</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/Ganesh346-bit" target="_blank" rel="noopener">github.com/Ganesh346-bit</a></p>
           </div>
         </div>
       </section>
@@ -196,7 +324,7 @@
 
     <footer class="footer">
       <div class="container footer-inner">
-        <span>© <span id="year"></span> Your Name</span>
+        <span>© <span id="year"></span> Sai Ganesh Kalmali</span>
         <span class="muted">Built with GitHub Pages</span>
       </div>
     </footer>
